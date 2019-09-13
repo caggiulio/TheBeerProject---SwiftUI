@@ -10,11 +10,22 @@ import Foundation
 import SwiftUI
 import Combine
 import PromiseKit
+import Alamofire
 
 public class HomeViewModel: ObservableObject {
     public let objectWillChange = ObservableObjectPublisher()
     public var didChange = PassthroughSubject<HomeViewModel, Never>()
     public var page = 1
+    public var searchText: String = "" {
+        didSet {
+            Alamofire.SessionManager.default.session.getAllTasks { (tasks) in
+                tasks.forEach { $0.cancel()}
+            }
+            self.beers.removeAll()
+            self.page = 1
+            self.getBeers(page: self.page, beerName: searchText, category: "")
+        }
+    }
     
     @Published var beers = [Beer]() {
         didSet {
@@ -26,7 +37,7 @@ public class HomeViewModel: ObservableObject {
     }
     
     init() {
-        getBeers(page: page, beerName: "", category: "")
+        getBeers(page: page, beerName: searchText, category: "")
     }
     
     func getBeers(page: Int, beerName: String, category: String) {
@@ -40,7 +51,6 @@ public class HomeViewModel: ObservableObject {
         }.done { (beers) in
             self.beers += beers
             self.page += 1
-            print("next page will be \(self.page)")
         }.catch { (error) in
             print(error)
         }

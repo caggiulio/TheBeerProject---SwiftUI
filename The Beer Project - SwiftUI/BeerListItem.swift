@@ -15,7 +15,7 @@ struct BeerListItem: View {
     
     var body: some View {
         HStack {
-            URLImage(URL(string: (beer.imageUrl)!)!)
+            URLImage(URL(string: (beer.imageUrl) ?? "https://specsonline.com/wp-content/themes/Specs%20Theme/images/default_beer.jpg") ?? URL(string: "https://specsonline.com/wp-content/themes/Specs%20Theme/images/default_beer.jpg")!)
             .resizable()
             .scaledToFit()
             .frame(width: 100, height: 150, alignment: .center)

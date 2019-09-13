@@ -16,18 +16,10 @@ struct HomeView: View {
     @State var beers: [Beer] = [Beer]()
     
     var body: some View {
-        List(homeViewModel.beers, id: \.id) { beer in
-            BeerListItem(beer: beer)
-                .onAppear() {
-                    if beer.id == self.homeViewModel.beers.last?.id {
-                        self.homeViewModel.getBeers(page: self.homeViewModel.page, beerName: "", category: "")
-                    }
-            }
+        VStack(alignment: .center, spacing: 0) {
+             SearchView(homeViewModel: _homeViewModel)
+             BeerListView(homeViewModel: _homeViewModel)
         }
-        //this is called when the Publisher send an object
-        /*.onReceive(homeViewModel.didChange) { (vm) in
-            self.beers = vm.beers
-        }*/
     }
 }
 
@@ -36,3 +28,39 @@ struct HomeView_Previews: PreviewProvider {
         HomeView().environmentObject(HomeViewModel())
     }
 }
+
+struct SearchView: View {
+    
+    @EnvironmentObject var homeViewModel: HomeViewModel
+    
+    var body: some View {
+        HStack {
+            Image(systemName: "magnifyingglass")
+                .padding(.leading, CGFloat(10.0))
+            TextField("Search", text: $homeViewModel.searchText)
+                .padding(.vertical, CGFloat(4.0))
+                .padding(.trailing, CGFloat(10.0))
+        }.padding()
+    }
+}
+
+struct BeerListView: View {
+    
+    @EnvironmentObject var homeViewModel: HomeViewModel
+    
+    var body: some View {
+        List(homeViewModel.beers, id: \.id) { beer in
+            BeerListItem(beer: beer)
+                .onAppear() {
+                    if beer.id == self.homeViewModel.beers.last?.id {
+                        self.homeViewModel.getBeers(page: self.homeViewModel.page, beerName: self.homeViewModel.searchText, category: "")
+                    }
+                }
+        }//this is called when the Publisher send an object
+        /*.onReceive(homeViewModel.didChange) { (vm) in
+            self.beers = vm.beers
+        }*/
+    }
+}
+
+
