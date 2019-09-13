@@ -18,6 +18,11 @@ struct HomeView: View {
     var body: some View {
         List(homeViewModel.beers, id: \.id) { beer in
             BeerListItem(beer: beer)
+                .onAppear() {
+                    if beer.id == self.homeViewModel.beers.last?.id {
+                        self.homeViewModel.getBeers(page: self.homeViewModel.page, beerName: "", category: "")
+                    }
+            }
         }
         //this is called when the Publisher send an object
         /*.onReceive(homeViewModel.didChange) { (vm) in

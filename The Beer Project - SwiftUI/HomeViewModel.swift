@@ -14,6 +14,7 @@ import PromiseKit
 public class HomeViewModel: ObservableObject {
     public let objectWillChange = ObservableObjectPublisher()
     public var didChange = PassthroughSubject<HomeViewModel, Never>()
+    public var page = 1
     
     @Published var beers = [Beer]() {
         didSet {
@@ -25,19 +26,21 @@ public class HomeViewModel: ObservableObject {
     }
     
     init() {
-        getBeers()
+        getBeers(page: page, beerName: "", category: "")
     }
     
-    func getBeers() {
+    func getBeers(page: Int, beerName: String, category: String) {
         firstly {
-            API().getBeers(page: 1, beerName: "", category: "")
+            API().getBeers(page: page, beerName: beerName, category: category)
         }.map { (json) -> [Beer] in
             let beers = json.arrayValue.map { (singleJs) -> Beer in
                 return Beer(singleJs)
             }
             return beers
         }.done { (beers) in
-            self.beers = beers
+            self.beers += beers
+            self.page += 1
+            print("next page will be \(self.page)")
         }.catch { (error) in
             print(error)
         }
