@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5B5646232B87A900AFD8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5645232B87A900AFD8D0 /* AppDelegate.swift */; };
+		4D5B5648232B87A900AFD8D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5647232B87A900AFD8D0 /* SceneDelegate.swift */; };
+		4D5B564A232B87A900AFD8D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5649232B87A900AFD8D0 /* ContentView.swift */; };
+		4D5B564C232B87AB00AFD8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B564B232B87AB00AFD8D0 /* Assets.xcassets */; };
+		4D5B564F232B87AB00AFD8D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B564E232B87AB00AFD8D0 /* Preview Assets.xcassets */; };
+		4D5B5652232B87AB00AFD8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B5650232B87AB00AFD8D0 /* LaunchScreen.storyboard */; };
+		4D5B565D232B87AB00AFD8D0 /* The_Beer_Project___SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B565C232B87AB00AFD8D0 /* The_Beer_Project___SwiftUITests.swift */; };
+		4D5B5668232B87AB00AFD8D0 /* The_Beer_Project___SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5667232B87AB00AFD8D0 /* The_Beer_Project___SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D5B5659232B87AB00AFD8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5B563A232B87A900AFD8D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5B5641232B87A900AFD8D0;
+			remoteInfo = "The Beer Project - SwiftUI";
+		};
+		4D5B5664232B87AB00AFD8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5B563A232B87A900AFD8D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5B5641232B87A900AFD8D0;
+			remoteInfo = "The Beer Project - SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5B5642232B87A900AFD8D0 /* The Beer Project - SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Beer Project - SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5B5645232B87A900AFD8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D5B5647232B87A900AFD8D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D5B5649232B87A900AFD8D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D5B564B232B87AB00AFD8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5B564E232B87AB00AFD8D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D5B5651232B87AB00AFD8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D5B5653232B87AB00AFD8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5B5658232B87AB00AFD8D0 /* The Beer Project - SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Beer Project - SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5B565C232B87AB00AFD8D0 /* The_Beer_Project___SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The_Beer_Project___SwiftUITests.swift"; sourceTree = "<group>"; };
+		4D5B565E232B87AB00AFD8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5B5663232B87AB00AFD8D0 /* The Beer Project - SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Beer Project - SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5B5667232B87AB00AFD8D0 /* The_Beer_Project___SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The_Beer_Project___SwiftUIUITests.swift"; sourceTree = "<group>"; };
+		4D5B5669232B87AB00AFD8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5B563F232B87A900AFD8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5B5655232B87AB00AFD8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5B5660232B87AB00AFD8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5B5639232B87A900AFD8D0 = {
+			isa = PBXGroup;
+			children = (
+				4D5B5644232B87A900AFD8D0 /* The Beer Project - SwiftUI */,
+				4D5B565B232B87AB00AFD8D0 /* The Beer Project - SwiftUITests */,
+				4D5B5666232B87AB00AFD8D0 /* The Beer Project - SwiftUIUITests */,
+				4D5B5643232B87A900AFD8D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5B5643232B87A900AFD8D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B5642232B87A900AFD8D0 /* The Beer Project - SwiftUI.app */,
+				4D5B5658232B87AB00AFD8D0 /* The Beer Project - SwiftUITests.xctest */,
+				4D5B5663232B87AB00AFD8D0 /* The Beer Project - SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5B5644232B87A900AFD8D0 /* The Beer Project - SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B5645232B87A900AFD8D0 /* AppDelegate.swift */,
+				4D5B5647232B87A900AFD8D0 /* SceneDelegate.swift */,
+				4D5B5649232B87A900AFD8D0 /* ContentView.swift */,
+				4D5B564B232B87AB00AFD8D0 /* Assets.xcassets */,
+				4D5B5650232B87AB00AFD8D0 /* LaunchScreen.storyboard */,
+				4D5B5653232B87AB00AFD8D0 /* Info.plist */,
+				4D5B564D232B87AB00AFD8D0 /* Preview Content */,
+			);
+			path = "The Beer Project - SwiftUI";
+			sourceTree = "<group>";
+		};
+		4D5B564D232B87AB00AFD8D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B564E232B87AB00AFD8D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D5B565B232B87AB00AFD8D0 /* The Beer Project - SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B565C232B87AB00AFD8D0 /* The_Beer_Project___SwiftUITests.swift */,
+				4D5B565E232B87AB00AFD8D0 /* Info.plist */,
+			);
+			path = "The Beer Project - SwiftUITests";
+			sourceTree = "<group>";
+		};
+		4D5B5666232B87AB00AFD8D0 /* The Beer Project - SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B5667232B87AB00AFD8D0 /* The_Beer_Project___SwiftUIUITests.swift */,
+				4D5B5669232B87AB00AFD8D0 /* Info.plist */,
+			);
+			path = "The Beer Project - SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5B5641232B87A900AFD8D0 /* The Beer Project - SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5B566C232B87AB00AFD8D0 /* Build configuration list for PBXNativeTarget "The Beer Project - SwiftUI" */;
+			buildPhases = (
+				4D5B563E232B87A900AFD8D0 /* Sources */,
+				4D5B563F232B87A900AFD8D0 /* Frameworks */,
+				4D5B5640232B87A900AFD8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Beer Project - SwiftUI";
+			productName = "The Beer Project - SwiftUI";
+			productReference = 4D5B5642232B87A900AFD8D0 /* The Beer Project - SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D5B5657232B87AB00AFD8D0 /* The Beer Project - SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5B566F232B87AB00AFD8D0 /* Build configuration list for PBXNativeTarget "The Beer Project - SwiftUITests" */;
+			buildPhases = (
+				4D5B5654232B87AB00AFD8D0 /* Sources */,
+				4D5B5655232B87AB00AFD8D0 /* Frameworks */,
+				4D5B5656232B87AB00AFD8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5B565A232B87AB00AFD8D0 /* PBXTargetDependency */,
+			);
+			name = "The Beer Project - SwiftUITests";
+			productName = "The Beer Project - SwiftUITests";
+			productReference = 4D5B5658232B87AB00AFD8D0 /* The Beer Project - SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D5B5662232B87AB00AFD8D0 /* The Beer Project - SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5B5672232B87AB00AFD8D0 /* Build configuration list for PBXNativeTarget "The Beer Project - SwiftUIUITests" */;
+			buildPhases = (
+				4D5B565F232B87AB00AFD8D0 /* Sources */,
+				4D5B5660232B87AB00AFD8D0 /* Frameworks */,
+				4D5B5661232B87AB00AFD8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5B5665232B87AB00AFD8D0 /* PBXTargetDependency */,
+			);
+			name = "The Beer Project - SwiftUIUITests";
+			productName = "The Beer Project - SwiftUIUITests";
+			productReference = 4D5B5663232B87AB00AFD8D0 /* The Beer Project - SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5B563A232B87A900AFD8D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "nunzio giulio caggegi";
+				TargetAttributes = {
+					4D5B5641232B87A900AFD8D0 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4D5B5657232B87AB00AFD8D0 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4D5B5641232B87A900AFD8D0;
+					};
+					4D5B5662232B87AB00AFD8D0 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4D5B5641232B87A900AFD8D0;
+					};
+				};
+			};
+			buildConfigurationList = 4D5B563D232B87A900AFD8D0 /* Build configuration list for PBXProject "The Beer Project - SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5B5639232B87A900AFD8D0;
+			productRefGroup = 4D5B5643232B87A900AFD8D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5B5641232B87A900AFD8D0 /* The Beer Project - SwiftUI */,
+				4D5B5657232B87AB00AFD8D0 /* The Beer Project - SwiftUITests */,
+				4D5B5662232B87AB00AFD8D0 /* The Beer Project - SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5B5640232B87A900AFD8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5B5652232B87AB00AFD8D0 /* LaunchScreen.storyboard in Resources */,
+				4D5B564F232B87AB00AFD8D0 /* Preview Assets.xcassets in Resources */,
+				4D5B564C232B87AB00AFD8D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5B5656232B87AB00AFD8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5B5661232B87AB00AFD8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5B563E232B87A900AFD8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5B5646232B87A900AFD8D0 /* AppDelegate.swift in Sources */,
+				4D5B5648232B87A900AFD8D0 /* SceneDelegate.swift in Sources */,
+				4D5B564A232B87A900AFD8D0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5B5654232B87AB00AFD8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5B565D232B87AB00AFD8D0 /* The_Beer_Project___SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5B565F232B87AB00AFD8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5B5668232B87AB00AFD8D0 /* The_Beer_Project___SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D5B565A232B87AB00AFD8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5B5641232B87A900AFD8D0 /* The Beer Project - SwiftUI */;
+			targetProxy = 4D5B5659232B87AB00AFD8D0 /* PBXContainerItemProxy */;
+		};
+		4D5B5665232B87AB00AFD8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5B5641232B87A900AFD8D0 /* The Beer Project - SwiftUI */;
+			targetProxy = 4D5B5664232B87AB00AFD8D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D5B5650232B87AB00AFD8D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5B5651232B87AB00AFD8D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D5B566A232B87AB00AFD8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D5B566B232B87AB00AFD8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D5B566D232B87AB00AFD8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"The Beer Project - SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = GF6WZHA9DX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "The Beer Project - SwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncg.theBeerProj-SwiftUI.The-Beer-Project---SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5B566E232B87AB00AFD8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"The Beer Project - SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = GF6WZHA9DX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "The Beer Project - SwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncg.theBeerProj-SwiftUI.The-Beer-Project---SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D5B5670232B87AB00AFD8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GF6WZHA9DX;
+				INFOPLIST_FILE = "The Beer Project - SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncg.theBeerProj-SwiftUI.The-Beer-Project---SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Beer Project - SwiftUI.app/The Beer Project - SwiftUI";
+			};
+			name = Debug;
+		};
+		4D5B5671232B87AB00AFD8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GF6WZHA9DX;
+				INFOPLIST_FILE = "The Beer Project - SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncg.theBeerProj-SwiftUI.The-Beer-Project---SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Beer Project - SwiftUI.app/The Beer Project - SwiftUI";
+			};
+			name = Release;
+		};
+		4D5B5673232B87AB00AFD8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GF6WZHA9DX;
+				INFOPLIST_FILE = "The Beer Project - SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncg.theBeerProj-SwiftUI.The-Beer-Project---SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Beer Project - SwiftUI";
+			};
+			name = Debug;
+		};
+		4D5B5674232B87AB00AFD8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GF6WZHA9DX;
+				INFOPLIST_FILE = "The Beer Project - SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncg.theBeerProj-SwiftUI.The-Beer-Project---SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Beer Project - SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5B563D232B87A900AFD8D0 /* Build configuration list for PBXProject "The Beer Project - SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5B566A232B87AB00AFD8D0 /* Debug */,
+				4D5B566B232B87AB00AFD8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5B566C232B87AB00AFD8D0 /* Build configuration list for PBXNativeTarget "The Beer Project - SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5B566D232B87AB00AFD8D0 /* Debug */,
+				4D5B566E232B87AB00AFD8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5B566F232B87AB00AFD8D0 /* Build configuration list for PBXNativeTarget "The Beer Project - SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5B5670232B87AB00AFD8D0 /* Debug */,
+				4D5B5671232B87AB00AFD8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5B5672232B87AB00AFD8D0 /* Build configuration list for PBXNativeTarget "The Beer Project - SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5B5673232B87AB00AFD8D0 /* Debug */,
+				4D5B5674232B87AB00AFD8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5B563A232B87A900AFD8D0 /* Project object */;
+}
