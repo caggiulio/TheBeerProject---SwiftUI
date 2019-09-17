@@ -28,16 +28,15 @@
 		4D5B568F232B92A300AFD8D0 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5684232B92A300AFD8D0 /* Ingredients.swift */; };
 		4D5B5693232B92F300AFD8D0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5691232B92F300AFD8D0 /* API.swift */; };
 		4D5B5694232B92F300AFD8D0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5692232B92F300AFD8D0 /* NetworkManager.swift */; };
-		4D5B5698232B95B300AFD8D0 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4D5B5697232B95B300AFD8D0 /* URLImage */; };
+		4D5B5698232B95B300AFD8D0 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 4D5B5697232B95B300AFD8D0 /* SwiftPackageProductDependency */; };
 		4D5B569A232B970800AFD8D0 /* BeerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5699232B970800AFD8D0 /* BeerListItem.swift */; };
 		4D5B569C232B987800AFD8D0 /* SharedMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B569B232B987800AFD8D0 /* SharedMock.swift */; };
 		4D5B569E232B98CA00AFD8D0 /* Beers.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B569D232B98CA00AFD8D0 /* Beers.json */; };
 		4D5B56A0232BA56300AFD8D0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B569F232BA56300AFD8D0 /* HomeViewModel.swift */; };
-		56C6184FB8FD8DD8E3536119 /* Pods_The_Beer_Project___SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AE9F3F8F802CA1E568287C /* Pods_The_Beer_Project___SwiftUI.framework */; };
+		638710D0606FA656E3E86763 /* Pods_The_Beer_Project___SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D0C99FCEDE2D7E96A66B05 /* Pods_The_Beer_Project___SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		086DB973C9451148B1E59509 /* Pods-The Beer Project - SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Beer Project - SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		309430072331058400794F8D /* SearchStringObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStringObservable.swift; sourceTree = "<group>"; };
 		4D5B5642232B87A900AFD8D0 /* The Beer Project - SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Beer Project - SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5B5645232B87A900AFD8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +47,7 @@
 		4D5B5651232B87AB00AFD8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D5B5653232B87AB00AFD8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5B565E232B87AB00AFD8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D5B5667232B87AB00AFD8D0 /* The_Beer_Project___SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The_Beer_Project___SwiftUIUITests.swift"; sourceTree = "<group>"; };
+		4D5B5667232B87AB00AFD8D0 /* The_Beer_Project___SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Beer_Project___SwiftUIUITests.swift; sourceTree = "<group>"; };
 		4D5B5669232B87AB00AFD8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5B5675232B8EBC00AFD8D0 /* ColorsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsEnum.swift; sourceTree = "<group>"; };
 		4D5B567A232B92A200AFD8D0 /* Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
@@ -68,8 +67,9 @@
 		4D5B569B232B987800AFD8D0 /* SharedMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedMock.swift; sourceTree = "<group>"; };
 		4D5B569D232B98CA00AFD8D0 /* Beers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Beers.json; sourceTree = "<group>"; };
 		4D5B569F232BA56300AFD8D0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		BF028DBD72CFA552C1C39604 /* Pods-The Beer Project - SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Beer Project - SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
-		C7AE9F3F8F802CA1E568287C /* Pods_The_Beer_Project___SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_The_Beer_Project___SwiftUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F9B4E82FEFB7E62D2955D4 /* Pods-The Beer Project - SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Beer Project - SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		C5D0C99FCEDE2D7E96A66B05 /* Pods_The_Beer_Project___SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Beer_Project___SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC5E7C876F3C99CBB038830 /* Pods-The Beer Project - SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Beer Project - SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,18 +77,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D5B5698232B95B300AFD8D0 /* URLImage in Frameworks */,
-				56C6184FB8FD8DD8E3536119 /* Pods_The_Beer_Project___SwiftUI.framework in Frameworks */,
+				4D5B5698232B95B300AFD8D0 /* BuildFile in Frameworks */,
+				638710D0606FA656E3E86763 /* Pods_The_Beer_Project___SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		146E9A2FB4274CD838A82FA8 /* Frameworks */ = {
+		0A56C398BF47407D992EA195 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C7AE9F3F8F802CA1E568287C /* Pods_The_Beer_Project___SwiftUI.framework */,
+				C5D0C99FCEDE2D7E96A66B05 /* Pods_The_Beer_Project___SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 				4D5B5666232B87AB00AFD8D0 /* The Beer Project - SwiftUIUITests */,
 				4D5B5643232B87A900AFD8D0 /* Products */,
 				7539B83D673135315C5FDB11 /* Pods */,
-				146E9A2FB4274CD838A82FA8 /* Frameworks */,
+				0A56C398BF47407D992EA195 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,8 +198,8 @@
 		7539B83D673135315C5FDB11 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF028DBD72CFA552C1C39604 /* Pods-The Beer Project - SwiftUI.debug.xcconfig */,
-				086DB973C9451148B1E59509 /* Pods-The Beer Project - SwiftUI.release.xcconfig */,
+				80F9B4E82FEFB7E62D2955D4 /* Pods-The Beer Project - SwiftUI.debug.xcconfig */,
+				CAC5E7C876F3C99CBB038830 /* Pods-The Beer Project - SwiftUI.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -211,11 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D5B566C232B87AB00AFD8D0 /* Build configuration list for PBXNativeTarget "The Beer Project - SwiftUI" */;
 			buildPhases = (
-				96EE72800909808399088403 /* [CP] Check Pods Manifest.lock */,
+				0F7A63544DA88F2279E03754 /* [CP] Check Pods Manifest.lock */,
 				4D5B563E232B87A900AFD8D0 /* Sources */,
 				4D5B563F232B87A900AFD8D0 /* Frameworks */,
 				4D5B5640232B87A900AFD8D0 /* Resources */,
-				7534C0E68879D253B743E88B /* [CP] Embed Pods Frameworks */,
+				CD1559597706EF073BB850CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +223,7 @@
 			);
 			name = "The Beer Project - SwiftUI";
 			packageProductDependencies = (
-				4D5B5697232B95B300AFD8D0 /* URLImage */,
+				4D5B5697232B95B300AFD8D0 /* SwiftPackageProductDependency */,
 			);
 			productName = "The Beer Project - SwiftUI";
 			productReference = 4D5B5642232B87A900AFD8D0 /* The Beer Project - SwiftUI.app */;
@@ -254,7 +254,7 @@
 			);
 			mainGroup = 4D5B5639232B87A900AFD8D0;
 			packageReferences = (
-				4D5B5696232B95B300AFD8D0 /* XCRemoteSwiftPackageReference "url-image" */,
+				4D5B5696232B95B300AFD8D0 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 4D5B5643232B87A900AFD8D0 /* Products */;
 			projectDirPath = "";
@@ -280,24 +280,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7534C0E68879D253B743E88B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96EE72800909808399088403 /* [CP] Check Pods Manifest.lock */ = {
+		0F7A63544DA88F2279E03754 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,6 +300,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1559597706EF073BB850CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -480,7 +480,7 @@
 		};
 		4D5B566D232B87AB00AFD8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF028DBD72CFA552C1C39604 /* Pods-The Beer Project - SwiftUI.debug.xcconfig */;
+			baseConfigurationReference = 80F9B4E82FEFB7E62D2955D4 /* Pods-The Beer Project - SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,7 +501,7 @@
 		};
 		4D5B566E232B87AB00AFD8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 086DB973C9451148B1E59509 /* Pods-The Beer Project - SwiftUI.release.xcconfig */;
+			baseConfigurationReference = CAC5E7C876F3C99CBB038830 /* Pods-The Beer Project - SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,7 +544,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4D5B5696232B95B300AFD8D0 /* XCRemoteSwiftPackageReference "url-image" */ = {
+		4D5B5696232B95B300AFD8D0 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
 			requirement = {
@@ -555,9 +555,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4D5B5697232B95B300AFD8D0 /* URLImage */ = {
+		4D5B5697232B95B300AFD8D0 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4D5B5696232B95B300AFD8D0 /* XCRemoteSwiftPackageReference "url-image" */;
+			package = 4D5B5696232B95B300AFD8D0 /* RemoteSwiftPackageReference */;
 			productName = URLImage;
 		};
 /* End XCSwiftPackageProductDependency section */
