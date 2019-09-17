@@ -15,9 +15,12 @@ struct HomeView: View {
     @EnvironmentObject var homeViewModel: HomeViewModel
         
     var body: some View {
-        VStack(alignment: .center, spacing: 0) {
-            SearchView(homeViewModel: _homeViewModel)
-            BeerListView(homeViewModel: _homeViewModel)
+        NavigationView {
+            VStack(alignment: .center, spacing: 0) {
+                SearchView(homeViewModel: _homeViewModel)
+                BeerListView(homeViewModel: _homeViewModel)
+            }
+            .navigationBarTitle("The Beer Project", displayMode: .large)
         }
     }
 }
