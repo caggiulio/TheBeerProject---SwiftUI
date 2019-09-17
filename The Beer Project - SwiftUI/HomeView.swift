@@ -9,16 +9,15 @@
 import SwiftUI
 import URLImage
 import PromiseKit
+import Combine
 
 struct HomeView: View {
-    
     @EnvironmentObject var homeViewModel: HomeViewModel
-    @State var beers: [Beer] = [Beer]()
-    
+        
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
-             SearchView(homeViewModel: _homeViewModel)
-             BeerListView(homeViewModel: _homeViewModel)
+            SearchView(homeViewModel: _homeViewModel)
+            BeerListView(homeViewModel: _homeViewModel)
         }
     }
 }
@@ -32,12 +31,12 @@ struct HomeView_Previews: PreviewProvider {
 struct SearchView: View {
     
     @EnvironmentObject var homeViewModel: HomeViewModel
-    
+        
     var body: some View {
         HStack {
             Image(systemName: "magnifyingglass")
                 .padding(.leading, CGFloat(10.0))
-            TextField("Search", text: $homeViewModel.searchText)
+            TextField("Search", text: $homeViewModel.searchText.string)
                 .padding(.vertical, CGFloat(4.0))
                 .padding(.trailing, CGFloat(10.0))
         }.padding()
@@ -47,19 +46,20 @@ struct SearchView: View {
 struct BeerListView: View {
     
     @EnvironmentObject var homeViewModel: HomeViewModel
+    @State var beers: [Beer] = [Beer]()
     
     var body: some View {
-        List(homeViewModel.beers, id: \.id) { beer in
+        List(beers, id: \.id) { beer in
             BeerListItem(beer: beer)
                 .onAppear() {
                     if beer.id == self.homeViewModel.beers.last?.id {
-                        self.homeViewModel.getBeers(page: self.homeViewModel.page, beerName: self.homeViewModel.searchText, category: "")
+                        self.homeViewModel.getBeers(page: self.homeViewModel.page, beerName: self.homeViewModel.searchText.string, category: "")
                     }
                 }
         }//this is called when the Publisher send an object
-        /*.onReceive(homeViewModel.didChange) { (vm) in
+        .onReceive(homeViewModel.didChange) { (vm) in
             self.beers = vm.beers
-        }*/
+        }
     }
 }
 

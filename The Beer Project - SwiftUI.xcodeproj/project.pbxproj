@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309430082331058400794F8D /* SearchStringObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309430072331058400794F8D /* SearchStringObservable.swift */; };
 		4D5B5646232B87A900AFD8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5645232B87A900AFD8D0 /* AppDelegate.swift */; };
 		4D5B5648232B87A900AFD8D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5647232B87A900AFD8D0 /* SceneDelegate.swift */; };
 		4D5B564A232B87A900AFD8D0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B5649232B87A900AFD8D0 /* HomeView.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		086DB973C9451148B1E59509 /* Pods-The Beer Project - SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Beer Project - SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-The Beer Project - SwiftUI/Pods-The Beer Project - SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		309430072331058400794F8D /* SearchStringObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStringObservable.swift; sourceTree = "<group>"; };
 		4D5B5642232B87A900AFD8D0 /* The Beer Project - SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Beer Project - SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5B5645232B87A900AFD8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D5B5647232B87A900AFD8D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				4D5B5647232B87A900AFD8D0 /* SceneDelegate.swift */,
 				4D5B5649232B87A900AFD8D0 /* HomeView.swift */,
 				4D5B569F232BA56300AFD8D0 /* HomeViewModel.swift */,
+				309430072331058400794F8D /* SearchStringObservable.swift */,
 				4D5B5699232B970800AFD8D0 /* BeerListItem.swift */,
 				4D5B564B232B87AB00AFD8D0 /* Assets.xcassets */,
 				4D5B5650232B87AB00AFD8D0 /* LaunchScreen.storyboard */,
@@ -335,6 +338,7 @@
 				4D5B5687232B92A300AFD8D0 /* Beer.swift in Sources */,
 				4D5B564A232B87A900AFD8D0 /* HomeView.swift in Sources */,
 				4D5B568E232B92A300AFD8D0 /* BoilVolume.swift in Sources */,
+				309430082331058400794F8D /* SearchStringObservable.swift in Sources */,
 				4D5B5694232B92F300AFD8D0 /* NetworkManager.swift in Sources */,
 				4D5B568D232B92A300AFD8D0 /* MashTemp.swift in Sources */,
 				4D5B5689232B92A300AFD8D0 /* Fermentation.swift in Sources */,
